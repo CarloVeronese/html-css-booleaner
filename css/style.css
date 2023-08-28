@@ -1,0 +1,21 @@
+
+*{
+    margin: 0px;
+}
+
+div{
+    background-image: url(./img/pattern.png);
+}
+
+.logo{
+    width: 200px;
+}
+
+.subtitle{
+    font-weight: light;
+    color: rgba(160,160,160,255);
+}
+
+#author{
+    color: rgba(33,169,229,255);
+}
