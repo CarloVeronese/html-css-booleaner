@@ -19,3 +19,32 @@ div{
 #author{
     color: rgba(33,169,229,255);
 }
+
+.highlight{
+    background-color: rgba(255,255,0,255);
+}
+
+ul{
+    padding-left: 20px;
+}
+
+thead{
+    text-align: left;
+    color: aliceblue;
+    background-color: rgba(32,169,229,255);
+}
+.first_column{
+    width: 25%;
+}
+
+.second_column{
+    width: 25%;
+}
+
+.third_column{
+    width: 50%;
+}
+
+.lightblue_row{
+    background-color: rgba(177,229,242,255);
+}
