@@ -1,10 +1,15 @@
 
 *{
     margin: 0px;
+    margin-left: 1px;
 }
 
-div{
-    background-image: url(./img/pattern.png);
+.header{
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-color: #4da1ff;
+    padding-top: 30px;
+    background-size: 340px;
 }
 
 .logo{
@@ -16,8 +21,33 @@ div{
     color: rgba(160,160,160,255);
 }
 
+.subtitle__date{
+    font-size: smaller;
+    font-weight: light;
+    color: rgba(160,160,160,255);
+    margin-bottom: 20px;
+}
+
 #author{
     color: rgba(33,169,229,255);
+}
+
+.img-tim1{
+    width: 52%;
+
+}
+
+.img-tim2{
+    width: 44%;
+    height: auto;
+}
+
+.images h4{
+    font-weight: 300;
+}
+
+section{
+    margin-bottom: 20px;
 }
 
 .highlight{
@@ -26,6 +56,10 @@ div{
 
 ul{
     padding-left: 20px;
+}
+
+.table{
+    border-collapse: collapse;
 }
 
 thead{
@@ -47,4 +81,25 @@ thead{
 
 .lightblue_row{
     background-color: rgba(177,229,242,255);
+}
+
+.related-articles{
+    list-style: none;
+    padding: 0px;
+}
+
+.article-card{
+    width: 200px;
+    background-color: grey;
+    height: 160px;
+    color: white;
+}
+
+.bg-monitor{
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 20px;
+}
+
+.bg-graph{
+    background-image: url(../img/graph.jpg);
 }
